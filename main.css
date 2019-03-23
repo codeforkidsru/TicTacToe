@@ -1,0 +1,29 @@
+body {
+    background-color: black
+}
+
+.container {
+    margin: 50px auto;
+    width: 300px
+}
+
+.cell {
+    background-color: white;
+    width: 94px;
+    height: 94px;
+    border: 3px solid;
+    border-color: black;
+    float: left;
+}
+
+.cell:hover {
+    border-color: orangered;
+}
+
+.player {
+    background-image: url("./img/player.jpg");
+}
+
+.computer {
+    background-image: url("./img/computer.jpg");
+}
